@@ -1,1 +1,33 @@
-%h1 Welcome apyer
+#banner
+  .banner_content
+    %h1 Deathnote
+    %p
+      Your last words in our database...
+      %br/
+      %br/
+      %br/
+      = link_to 'Sign Up', new_user_registration_path, class: 'btn'
+#testimonial
+  .wrapper
+    %p.quote "An awesome place to keep you notes before dying.
+    %p.quote We care about our clients..."
+    %p.name - Deathnote LLC
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p 4:30 p.m.  The subway train draws to a halt. There is no station in sight. Anxious glances dart around about the passengers as they realize each others presence for the first time...
+      .callout
+        %h2 Memories
+        %p At the end of the train, a young lady in a green pants suit stands up in the middle of the car and starts to unbutton her jacket, which she takes off and drops to the dirty floor....
+      .callout
+        %h2 Secret Wishes
+        %p She also takes off her shoes, her pants, her blouse, and the rest of her undergarments dropping them into a neat little pile.  This leaves her totally naked...
+#bottom_cta
+  .wrapper
+    %h2 Sign up already
+    %p Do not die without you note in our server...
+    = link_to 'Click me or die trying', new_user_registration_path, class: 'btn'
+%footer
+  %p &copy; Created and Powered by Mher Margaryan
